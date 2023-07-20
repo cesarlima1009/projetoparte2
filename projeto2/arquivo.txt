@@ -1,0 +1,16 @@
+dim 50 50 50
+
+# Green leaf
+
+putvoxel 25 25 0 34 139 34 1
+putvoxel 25 25 1 34 139 34 1
+putvoxel 25 25 2 34 139 34 1
+
+# Red apple body
+putsphere 25 25 25 12 255 0 0 1
+
+# Stem
+putbox 24 26 37 40 24 26 139 69 19 1
+
+# Cutout for apple bite
+cutsphere 30 15 30 6
